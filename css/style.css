@@ -429,3 +429,43 @@ body {
         color: #000;
     }
 }
+.price {
+    display: block;
+    padding: 0 15px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #14d63e;
+}
+
+.modal-price {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #14d63e;
+    margin-bottom: 15px;
+}
+.slider-wrapper {
+    position: relative;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: rgba(0,0,0,.5);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
